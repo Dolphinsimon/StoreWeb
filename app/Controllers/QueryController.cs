@@ -20,12 +20,12 @@ namespace StoreWeb.Controllers
     {
         // GET: api/<QueryController>
         [HttpGet]
-        public async Task<string> Get(/*Mandatory get parameter*/ string Id,
-            string Idtype = "url",
-            string Environment = "Production",
-            string Market = "US",
-            string Lang = "en",
-            string Msatoken = null)
+        public async Task<string> Get(/*Mandatory get parameter*/ string? Id,
+            string? Idtype = "url",
+            string? Environment = "Production",
+            string? Market = "US",
+            string? Lang = "en",
+            string? Msatoken = null)
         {
             Packages packagerequest = new Packages()
             {

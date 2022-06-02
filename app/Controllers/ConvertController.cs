@@ -21,12 +21,12 @@ namespace StoreWeb.Controllers
         // GET: api/<ConvertController>
         [HttpGet]
         public async Task<string> Get(
-            /*Mandatory get parameter*/ string id,
-            string Idtype = "url",
-            string Environment = "Production",
-            string Market = "US",
-            string Lang = "en",
-            string Msatoken = null)
+            /*Mandatory get parameter*/ string? id,
+            string? Idtype = "url",
+            string? Environment = "Production",
+            string? Market = "US",
+            string? Lang = "en",
+            string? Msatoken = null)
         {
             Packages packagerequest = new Packages()
             {

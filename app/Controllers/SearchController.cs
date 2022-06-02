@@ -9,6 +9,7 @@ using StoreLib.Services;
 using StoreLib.Utilities;
 using System.Security.Cryptography.X509Certificates;
 using Newtonsoft.Json;
+using Results = StoreWeb.Models.Results;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 

@@ -36,12 +36,12 @@ namespace StoreWeb.Controllers
         // GET: api/Packages
         [HttpGet]
         public async Task<string> GetPackages(
-            /*Mandatory get parameter*/ string Id,
-            string Idtype="url",
-            string Environment="Production",
-            string Market = "US",
-            string Lang = "en",
-            string Msatoken=null)
+            /*Mandatory get parameter*/ string? Id,
+            string? Idtype="url",
+            string? Environment="Production",
+            string? Market = "US",
+            string? Lang = "en",
+            string? Msatoken=null)
         {
             Packages packagerequest = new Packages()
             {
